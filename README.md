@@ -48,7 +48,3 @@ O módulo `src/services/cart.js` exporta as seguintes funções:
 | `deleteItem(cart, name)` | Remove do carrinho o item com o nome informado, independentemente da quantidade.                  |
 | `displayCart(cart)`      | Exibe os itens e seus subtotais no terminal.                                                      |
 | `calculateTotal(cart)`   | Exibe a soma dos subtotais dos itens.                                                             |
-
-## Observação
-
-Atualmente, o subtotal de um item usa a quantidade recebida quando ele foi criado. Se `removeItem` alterar essa quantidade depois, o subtotal exibido ainda poderá refletir o valor inicial.
