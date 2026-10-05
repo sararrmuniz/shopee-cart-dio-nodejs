@@ -11,6 +11,9 @@ const item2 = await createItem("T-shirt", 19.99, 3);
 
 await cartService.addItem(myCart, item1);
 await cartService.addItem(myCart, item2);
+
+await cartService.removeItem(myCart, item2);
+
 await cartService.displayCart(myCart);
 
 await cartService.calculateTotal(myCart);
